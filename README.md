@@ -1,7 +1,10 @@
 # 基于微软云的同声传译安卓app
 
 ## 界面预览
-![](./demo.jpg)
+<p align="center">
+  <img src="./demo.jpg" width="300" />
+</p>
+
 
 ## 使用说明
 - 点击右上角的设置，填写自己微软云的speech_api_key和区域
