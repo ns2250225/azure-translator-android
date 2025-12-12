@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:id="@+id/layoutBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bubble_me"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:layout_gravity="end"
+        android:minWidth="120dp">
+
+        <TextView
+            android:id="@+id/tvOriginal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Original Text"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tvTranslated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Translated Text"
+            android:textColor="@color/black" />
+            
+        <TextView
+            android:id="@+id/tvLangInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textSize="10sp"
+            android:text="zh-CN -> en"
+            android:textColor="#555555" />
+    </LinearLayout>
+
+</LinearLayout>

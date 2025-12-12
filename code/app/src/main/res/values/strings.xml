@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">万能语音翻译官</string>
+    <string name="btn_hold_to_talk">按住说话</string>
+    <string name="status_idle">空闲</string>
+    <string name="status_listening">正在听...</string>
+    <string name="status_processing">识别中...</string>
+    <string name="status_playing">播放中...</string>
+    <string name="permission_rationale">需要录音权限来进行语音翻译</string>
+</resources>
